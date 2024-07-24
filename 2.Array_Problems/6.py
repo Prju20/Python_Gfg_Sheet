@@ -1,0 +1,1 @@
+#Python Program for Find reminder of array multiplication divided by n

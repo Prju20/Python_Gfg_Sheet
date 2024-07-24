@@ -1,0 +1,1 @@
+#Python Program for Sum of squares of first n natural numbers 
