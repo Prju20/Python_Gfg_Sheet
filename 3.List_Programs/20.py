@@ -1,0 +1,1 @@
+#Python Program to print all negativse numbers in a range

@@ -1,0 +1,1 @@
+#Different ways to clear a list in Python

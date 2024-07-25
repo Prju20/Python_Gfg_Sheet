@@ -1,0 +1,1 @@
+#Python - Extract digits from  Tuple List

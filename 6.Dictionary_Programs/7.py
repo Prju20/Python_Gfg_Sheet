@@ -1,0 +1,1 @@
+#Python - Convert key-values list to flat dictionary

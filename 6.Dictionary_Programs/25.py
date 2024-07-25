@@ -1,0 +1,1 @@
+#Python dictionary, set and counter to check if frequencies can become same

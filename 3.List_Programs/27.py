@@ -1,0 +1,1 @@
+#Python Program to find Cumulative sum of a list

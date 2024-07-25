@@ -1,0 +1,1 @@
+#Remove multiple elements from a list in Python

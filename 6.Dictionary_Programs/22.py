@@ -1,0 +1,1 @@
+#Counting the frequencies in a list using dictionary in Python

@@ -1,0 +1,1 @@
+#Python Program to find smallest number in a list

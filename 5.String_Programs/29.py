@@ -1,0 +1,1 @@
+#Python Counter| Find all duplicate characters in string
