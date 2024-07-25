@@ -1,0 +1,1 @@
+#Python Program for Find minimum sum of factors of number 

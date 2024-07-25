@@ -1,0 +1,1 @@
+#Python - Get number of characters, words, spaces and lines in a file

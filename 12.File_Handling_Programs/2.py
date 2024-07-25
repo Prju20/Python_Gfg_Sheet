@@ -1,0 +1,1 @@
+#Python Program to read character by character from a file

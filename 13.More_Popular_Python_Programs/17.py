@@ -1,0 +1,1 @@
+#Python Program for Print Number series without using any loop

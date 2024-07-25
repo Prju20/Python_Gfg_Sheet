@@ -1,0 +1,1 @@
+#Python Program for Smallest K digit number divisible by X
