@@ -1,0 +1,1 @@
+#Python regex to find sequences of one upper case letter followed by lower case letters

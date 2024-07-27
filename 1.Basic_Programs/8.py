@@ -1,12 +1,25 @@
 #Python Program to print all Prime numbers in an interval
-n = int(input("Enter the number for finding prime numbers: "))
+""" TO find all the numbers from given starting point to ending point
+i.e 2,3,5,7,11,..
+"""
+def isprime(param):
+    for i in range(2,param,):
+        k=param%i
+        if k==0:
+            return None
+            break
+    return param
+         
 
-if n<=1:
-    print("The given numbers cannot give prime numbers")
-else:
-    for i in range(2,n,):
-        list=list+i
-    print(list)
-    # for j in range(2,i,):
-    #     if i%j !=0:
-    #         print(f"The prime is {i}")         
+def interval(n):
+    for i in range(2,n+1,):
+        s= isprime(i)
+        if s == None:
+            pass
+        else:
+            print(s)
+        
+
+
+n = int(input("Enter the number for finding prime numbers: "))
+print(interval(n))

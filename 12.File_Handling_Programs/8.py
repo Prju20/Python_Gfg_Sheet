@@ -1,0 +1,1 @@
+#Python Program to remove lines starting with any prefix

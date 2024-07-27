@@ -1,0 +1,1 @@
+#Python- Check whether a string starts and ends with the same character or not
