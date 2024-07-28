@@ -13,3 +13,15 @@ Examples: Input: 6 5 4 4
           Output: false
 
 """
+
+def monotonic(arr):
+    sortedArr=sorted(arr)
+    for i in arr:
+             
+    return sortedArr
+        
+        
+
+arr=[6,5, 4, 4]
+print(monotonic(arr))
+
