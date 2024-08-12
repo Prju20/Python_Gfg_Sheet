@@ -7,3 +7,9 @@ Input: a=-3, b=4
 Output: -3,-2,-1
 #use no list
 """
+def negative(start,end):
+    for i in range(start,end):
+        if i<0:
+            print(i)
+
+print(negative(-4,5))

@@ -16,3 +16,13 @@ Algorithm
 2. Capitalize the first letter of each word and join them.
 3. Return the resulting string in Pascal case.
 """
+def Pascal(string):
+    str=string.split("_")
+    length=len(str)
+    for i in range(0,length):
+        str=str[i].capwords()
+    return str
+
+str="geeks_for_geeks"
+print(Pascal(str))
+

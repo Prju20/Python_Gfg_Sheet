@@ -11,3 +11,10 @@ All vowels are present
 Python Program to Accept the Strings Which Contains all Vowels
 Firstly, create set of vowels using set() function.
 """
+def check(string):
+    string=string.lower()
+
+input:"ABeeIghiObhkUul"
+input=input.lower()
+print(input)
+#print(check(input))

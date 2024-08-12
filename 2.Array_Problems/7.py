@@ -14,14 +14,45 @@ Examples: Input: 6 5 4 4
 
 """
 
-def monotonic(arr):
+"""
+def Increasing(arr):
     sortedArr=sorted(arr)
-    for i in arr:
-             
-    return sortedArr
+    return arr==sortedArr
+
+def Decreasing(arr):
+    sortedArr=sorted(arr)
+    length=len(sortedArr)
+    reverse=[]
+    for i in range(0,length):
+        reverse.extend([sortedArr[-1-i]])
+    return reverse==arr
+
+def Monotonic(arr):
+    if Increasing(arr)==True:
+        return True
+    elif Decreasing(arr)==True:
+        return True
+    else:
+        return False
+
+
+
         
         
 
 arr=[6,5, 4, 4]
-print(monotonic(arr))
+print(Monotonic(arr))
 
+"""
+
+def Increasing(arr):
+    return arr == sorted(arr)
+
+def Decreasing(arr):
+    return arr == sorted(arr, reverse=True)
+
+def Monotonic(arr):
+    return Increasing(arr) or Decreasing(arr)
+
+arr = [5,15,20,10]
+print(Monotonic(arr))

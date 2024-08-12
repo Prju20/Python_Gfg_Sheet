@@ -7,12 +7,12 @@ Output: arr[] = {5, 6, 52, 36, 12, 10}
 Explanation : Split from index 2 and first part {12,10} add to the end .
 
 Input: arr[]: {3,1,2}
-        k =2
+        k =1
         Output: arr[]={1,2,3}
         Explanation : Split from index 1 and first add to the end.
 """
 
-def split(arr,k):
+"""def split(arr,k):
     n=len(arr)
     arr1=arr[0:k]
 #     print(arr1)
@@ -27,3 +27,15 @@ arr=[3,1,2]
 k =2
 print(split(arr,k))
 #print(f"The given is }")
+"""
+def subArray(arr,k):
+    length=len(arr)
+    arr1=arr[0:k]
+    arr2=arr[k:length+1]
+    array=arr2 + arr1
+    return array
+
+#arr=[12,10,5,6,52,36]
+arr=[3,1,2]
+k=1
+print(subArray(arr,k))
